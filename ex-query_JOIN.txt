@@ -62,3 +62,5 @@
     ON `courses`.`id` = `exams`.`course_id`
     GROUP BY `students`.`name`, `students`.`surname`, `courses`.`id`
     HAVING max_vote >= 18
+
+.
